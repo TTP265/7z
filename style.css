@@ -1,0 +1,42 @@
+body { font-family: Arial, sans-serif; font-size: 13px; line-height: 1.6; margin: 0; padding: 20px; background-color: #fff; }
+.container { display: flex; max-width: 1000px; margin: auto; }
+
+/* Sidebar */
+.sidebar { width: 150px; padding-right: 20px; border-right: 1px solid #ccc; }
+.sidebar ul { list-style: none; padding: 0; }
+.sidebar li { margin-bottom: 5px; }
+.sidebar a { text-decoration: none; color: #000; }
+.blue-text { color: #0000ee !important; }
+.blue-text:hover { text-decoration: underline; }
+
+/* Main Content */
+.main-content { flex: 1; padding-left: 30px; }
+h1 { font-size: 24px; margin-top: 0; }
+
+/* Download Box màu xám giữa màn hình */
+.download-box {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.btn-download {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+}
+.btn-download:hover { background-color: #004499; }
+.small-text { font-size: 11px; color: #666; margin-top: 10px; }
+
+/* Table */
+.download-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+.download-table th, .download-table td { border: 0; padding: 5px; text-align: left; }
+.download-table th { border-bottom: 1px solid #000; }
+.download-table a { color: #0000ee; }
